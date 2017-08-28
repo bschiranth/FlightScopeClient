@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.bschiranth1692.flightscopeclient.Fragments.MainFragment">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <EditText
+            android:id="@+id/editIpId"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IP ex:192.168.0.18"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="15"
+            />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <EditText
+            android:id="@+id/editPortId"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Port ex: 2468"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:maxLength="4"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/setButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:textColor="@color/colorAccent"
+        android:text="Set"
+        />
+
+</LinearLayout>

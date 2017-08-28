@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.bschiranth1692.flightscopeclient.Fragments.ConnectionFragment">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ip and Port"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/addrId"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:text="Capture Video"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button"
+        android:id="@+id/captureVideoId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+    </Button>
+
+
+    <Button
+        android:id="@+id/sendButtonId"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:id="@+id/statusId"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressId"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/percentTextId"
+        android:text="0 %"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>

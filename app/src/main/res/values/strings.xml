@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlightScopeClient</string>
+    <string name="main_fragment_tag">main</string>
+    <string name="conn_fragment_tag">conn</string>
+
+    <string name="ip">ip</string>
+    <string name="port">port</string>
+
+    <string name="video_path">video_path</string>
+</resources>
